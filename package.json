@@ -1,25 +1,15 @@
 {
   "name": "tabnews-clone",
   "version": "1.0.0",
-  "description": "treino implementação",
-  "homepage": "https://github.com/DanMLC/tabnews-clone#readme",
-  "bugs": {
-    "url": "https://github.com/DanMLC/tabnews-clone/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanMLC/tabnews-clone.git"
-  },
-  "license": "MIT",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "^13.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

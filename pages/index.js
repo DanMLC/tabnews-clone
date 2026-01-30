@@ -1,5 +1,5 @@
-function Home() {
-    return <h1>chioremos</h1>
+export default function Home() {
+  return (
+    <h1>chromes</h1>
+  )
 }
-
-export default Home;
